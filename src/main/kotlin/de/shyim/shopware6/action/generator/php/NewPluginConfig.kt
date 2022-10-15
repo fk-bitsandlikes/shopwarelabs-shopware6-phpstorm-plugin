@@ -11,7 +11,8 @@ class NewPluginConfig(
     fun toMap(): Map<String, String> {
         return mapOf(
             "NAME" to this.name,
-            "NAMESPACE" to this.namespace.replace("\\", "\\\\"),
+            "NAMESPACE" to this.namespace,
+            "NAMESPACE_COMPOSER" to this.namespace.replace("\\", "\\\\"),
             "COMPOSER_NAME" to this.composerName,
             "DESCRIPTION" to this.description,
             "AUTHOR" to this.author,

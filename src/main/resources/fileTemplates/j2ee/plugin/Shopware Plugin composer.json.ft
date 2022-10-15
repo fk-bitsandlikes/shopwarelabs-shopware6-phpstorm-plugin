@@ -14,7 +14,7 @@
   "license": "${LICENSE}",
   "autoload": {
     "psr-4": {
-      "${NAMESPACE}\\": "src/"
+      "${NAMESPACE_COMPOSER}\\": "src/"
     }
   },
   "extra": {
